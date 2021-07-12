@@ -9,7 +9,7 @@ import geoplot.crs as gcrs
 import mapclassify as mc
 world = gpd.read_file(gplt.datasets.get_path('world'))
 world = world[world.id !='-99']
-df=pd.read_csv(r"C:\Users\Sherena\Documents\Kaggle\fincen_files\download_transactions_map.csv", index_col='id')
+df=pd.read_csv(r"https://github.com/DrSHendricks/FinTech/blob/main/download_transactions_map.csv", index_col='id')
 fmt = '${x:,.0f}'
 tick = mtick.StrMethodFormatter(fmt)
 ncols=2
