@@ -1,2 +1,2 @@
-# Collection of my FinTech related data analysis
+# Collection of my FinTech related analysis
 
